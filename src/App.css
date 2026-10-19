@@ -1,0 +1,11 @@
+img{
+  display: block;
+  width: 240px;
+  height:240px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 30px;
+}
